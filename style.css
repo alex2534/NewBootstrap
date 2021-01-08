@@ -1,0 +1,129 @@
+    .Header {
+        background-color: whitesmoke;
+        height: 7rem;
+    }
+    
+    .icons {
+        float: right;
+        padding-top: 4rem;
+        margin-right: 0.5rem;
+        font-size: small;
+    }
+    
+    .zoom {
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+    
+    .zoom:hover {
+        transform: scale(1.5);
+    }
+    
+    .insideh1 {
+        color: white;
+        text-shadow: 5px 5px 6px #000000;
+    }
+    
+    .h1head {
+        color: white;
+        text-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+    
+    .insideHeader {
+        flex: box;
+        float: left;
+        height: 3rem;
+        padding: 1.5rem;
+        margin-top: 2.5rem;
+    }
+    
+    .d-block {
+        height: 25rem;
+    }
+    
+    .div {
+        position: absolute;
+        z-index: 1;
+        float: left;
+        position: relative;
+        animation: mymove 10s infinite;
+        animation-timing-function: linear;
+    }
+    
+    #div1 {
+        padding-top: 8rem;
+        animation-timing-function: linear;
+    }
+    
+    #div2 {
+        animation-timing-function: ease;
+    }
+    
+    #div3 {
+        animation-timing-function: ease-in;
+    }
+    
+    #div4 {
+        animation-timing-function: ease-out;
+    }
+    
+    #div5 {
+        animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes mymove {
+        from {
+            left: 0px;
+        }
+        to {
+            left: 820px;
+        }
+    }
+    
+    .h1carro {
+        font-family: cursive;
+        color: white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    }
+    
+    .imgFoot {
+        height: 1rem;
+        width: 1rem;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+    .fotterpat {
+        font-size: small;
+        color: white;
+    }
+    
+    .box {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    
+    .overlay {
+        position: absolute;
+        z-index: 3;
+        float: left;
+        position: relative;
+        animation: mymove 20s infinite;
+        animation-timing-function: linear;
+    }
+    
+    .container {
+        @keyframes mymove {
+            from {
+                left: 0px;
+            }
+            to {
+                left: 820px;
+            }
+        }
+    }
+    
+    .Footer {
+        margin-top: 1rem;
+    }
